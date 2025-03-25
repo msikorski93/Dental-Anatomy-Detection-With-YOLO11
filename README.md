@@ -10,6 +10,9 @@
 
 This project investigated the YOLO11n nano network, emphasizing its application for dental anatomy detection. The dataset originates from Roboflow. This type of transfer learning, implementing a pre-defined model on a new dataset, proved to be very useful and accurate. The model demonstrated strong performance with high accuracy in detecting tooth anatomy across a variety of images. The network effectively identified different tooth classes and localized them with high precision. 30 training epochs were enough for accurate results.
 
+<img src='https://github.com/user-attachments/assets/21a774fb-8b19-4456-8b22-0242b80beb7e' />
+
+
 A few examples were performed and for each run we achieved the following evaluation scores:
 
 | **Example** | **Precision** | **Recall** | **F1 Score** | **mAP@50** | **mAP@50:95** | **Weighted<br>Fitness** | **Unweighted<br>Fitness** |
@@ -25,4 +28,4 @@ Dental images with background overlays, including bounding boxes and confidence 
 
 <img src='https://github.com/user-attachments/assets/f9988848-1eeb-4144-b618-f426512f2b84' width='500'/>
 
-Overall, YOLO11 proves to be a reliable and efficient tool for dental image analysis, with its speed and performance making it suitable for real-time applications.
+Overall, YOLO11 proves to be a reliable and efficient tool for dental image analysis, with its speed and performance making it suitable for real-time applications. Throughout all the performed examples, the YOLO network did not misrecognize any tooth labels.
